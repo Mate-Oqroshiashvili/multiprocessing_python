@@ -21,7 +21,7 @@ def writer():
         message = generate_random_message()
         shared_queue.put(message)
         print(f"Produced: {message}")
-        time.sleep(2)  # Reduced sleep time for quicker demonstration
+        time.sleep(2)
 
 if __name__ == '__main__':
     writer()
