@@ -18,7 +18,7 @@ def reader():
                 print(f"Consumed: {message}")
         else:
             print("No message in the queue")
-        time.sleep(2)  # Reduced sleep time for quicker demonstration
+        time.sleep(2)
 
 if __name__ == '__main__':
     reader()
